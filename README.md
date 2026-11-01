@@ -26,28 +26,9 @@ The workflow uses MySQL for data exploration, cleaning, aggregation, and advance
 - Who are the most valuable customers based on sales and profitability?
 - Are high-revenue products necessarily the most profitable?
 
-## 🧰 Tools & Skills
-
-- **MySQL 8.0+:** data exploration, aggregations, joins, CTEs, views, subqueries, window functions, and KPI calculations.
-- **Power BI:** data modeling, DAX measures, interactive dashboards, and business performance reporting.
-- **Data Analysis:** profitability analysis, customer segmentation, discount analysis, and trend analysis.
-- **Data Quality:** missing-value checks, duplicate detection, data type validation, and date formatting.
-- **Business Intelligence:** KPI monitoring, performance comparisons, and actionable recommendations.
-
-## 🔎 Dataset & Data Quality
-
-Dataset: `Sample - Superstore.csv`
-
-- **Rows:** 9,994 order-line records
-- **Columns:** 21
-- **Distinct Orders:** 5,009
-- **Distinct Customers:** 793
-- **Distinct Products:** 1,862
-- **Key Fields:** Order Date, Ship Date, Customer, Segment, Region, Category, Sub-Category, Sales, Quantity, Discount, and Profit.
 
 ## 📊 Headline Results
 
-Values calculated directly from the supplied dataset.
 
 | KPI | Result |
 |---|---:|
