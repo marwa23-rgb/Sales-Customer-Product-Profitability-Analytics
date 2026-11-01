@@ -1,7 +1,5 @@
 -- 02. Data Quality Checks
--- Keep the raw table unchanged; investigate these checks before modifying data.
 
--- Duplicate row IDs
 SELECT `Row ID`, COUNT(*) AS occurrences
 FROM superstore
 GROUP BY `Row ID`
