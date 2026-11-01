@@ -1,5 +1,4 @@
 -- 01. Data Exploration
--- Run these queries after importing the CSV into a MySQL table named superstore.
 
 SELECT COUNT(*) AS row_count FROM superstore;
 SELECT COUNT(DISTINCT `Order ID`) AS total_orders,
